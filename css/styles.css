@@ -558,3 +558,12 @@ button {
 .footer-socials-icon {
     fill: #f4f4fd;
 }
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 8px;
+    border: 1px solid #212121;
+    max-width: 300px;
+}
