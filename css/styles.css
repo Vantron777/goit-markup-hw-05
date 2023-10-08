@@ -563,7 +563,6 @@ input {
     fill: #f4f4fd;
 }
 
-/* ======== OVERLAY ========== */
 .text-subscribe {
     margin-bottom: 16px;
     color: #FFF;
@@ -593,7 +592,6 @@ input {
     letter-spacing: 0.04em;
     padding-left: 16px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-
 }
 
 .form-input::placeholder {
@@ -628,6 +626,10 @@ input {
 .icon-plane {
     margin-left: 16px;
 }
+
+/* =================================== */
+
+/* ======== OVERLAY ========== */
 
 .cont-for-modal {
     position: fixed;
@@ -742,8 +744,6 @@ input {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
-
 .last-one-div {
     margin-bottom: 16px;
 }
@@ -796,7 +796,6 @@ input {
     fill: #F4F4FD;
     background-color: #404BBF;
     border-color: #404BBF;
-
 }
 
 .link-policy {
@@ -811,4 +810,12 @@ input {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #4D5AE5;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
