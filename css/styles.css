@@ -769,7 +769,7 @@ input {
     border-color: #4D5AE5;
 }
 
-.div-for-checkbox {
+.modal-checkbox {
     margin-bottom: 24px;
 }
 
@@ -795,6 +795,7 @@ input {
     align-items: center;
     justify-content: center;
     fill: transparent;
+    margin-right: 8px;
 }
 
 .check-input:checked+.check-text>.user-privacy-icon {
@@ -804,7 +805,7 @@ input {
     border-color: #404BBF;
 }
 
-.button-last-one {
+.modal-check-btn {
     margin: auto;
     display: block;
     min-width: 169px;
