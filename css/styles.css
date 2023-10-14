@@ -785,7 +785,7 @@ input {
     text-decoration: underline;
 }
 
-.part-check-text {
+.user-privacy-icon {
     width: 16px;
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
@@ -797,7 +797,7 @@ input {
     fill: transparent;
 }
 
-.check-input:checked+.check-text>.part-check-text {
+.check-input:checked+.check-text>.user-privacy-icon {
     border: none;
     fill: #F4F4FD;
     background-color: #404BBF;
